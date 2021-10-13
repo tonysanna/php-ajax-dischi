@@ -25,7 +25,7 @@
             <?php
                 foreach ($db as $album) {
                     echo '<div class="album-b">';
-                    echo '<img scr="'. $album['poster'] . '">';
+                    echo '<img src="'. $album['poster'] . '">';
                     echo '<h2>' . $album['title'] . '</h2>';
                     echo '<div class="box-inf">'. 
                             '<span>' . $album['author'] . '</span>'.
